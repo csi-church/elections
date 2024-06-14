@@ -82,3 +82,16 @@ iframe {
     width: 100%;
     color: black;
 }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    header ul {
+        flex-direction: column; /* Stack menu items vertically */
+    }
+    header ul li a {
+        display: block; /* Make links fill the container */
+        text-align: center; /* Center text in links */
+        width: 100%; /* Full width links */
+    }
+    
+}
