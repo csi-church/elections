@@ -69,7 +69,7 @@ button:hover {
 iframe {
     display: block;
     margin: auto;
-    width: 863px;
+    width: 100%;
     height: 1000px;
 }
 
